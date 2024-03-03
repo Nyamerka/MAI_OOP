@@ -1,0 +1,5 @@
+if(EXISTS "/Users/Nyamerka/VS Code Projects/C++/OOP/lab4/tests[1]_tests.cmake")
+  include("/Users/Nyamerka/VS Code Projects/C++/OOP/lab4/tests[1]_tests.cmake")
+else()
+  add_test(tests_NOT_BUILT tests_NOT_BUILT)
+endif()
